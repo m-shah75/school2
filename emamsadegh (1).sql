@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 30, 2019 at 04:29 PM
+-- Generation Time: Oct 04, 2019 at 02:53 PM
 -- Server version: 10.4.6-MariaDB
 -- PHP Version: 7.3.9
 
@@ -34,7 +34,13 @@ CREATE TABLE `admin` (
   `lname` varchar(128) NOT NULL,
   `username` varchar(128) NOT NULL,
   `password` varchar(256) NOT NULL,
-  `email` varchar(256) NOT NULL
+  `email` varchar(256) NOT NULL,
+  `SSN` int(10) NOT NULL,
+  `religion` varchar(128) NOT NULL,
+  `sex` tinyint(1) NOT NULL,
+  `phone` int(13) NOT NULL,
+  `address` text NOT NULL,
+  `birthday` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
@@ -112,7 +118,31 @@ CREATE TABLE `operator` (
   `password` varchar(256) NOT NULL,
   `phone` varchar(128) DEFAULT NULL,
   `address` text DEFAULT NULL,
-  `email` varchar(256) DEFAULT NULL
+  `email` varchar(256) DEFAULT NULL,
+  `SSN` int(10) NOT NULL,
+  `religion` varchar(128) NOT NULL,
+  `sex` tinyint(1) NOT NULL,
+  `birthday` date NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `parent`
+--
+
+CREATE TABLE `parent` (
+  `id` int(11) NOT NULL,
+  `fname` int(11) NOT NULL,
+  `lname` int(11) NOT NULL,
+  `username` int(11) NOT NULL,
+  `password` int(11) NOT NULL,
+  `address` text NOT NULL,
+  `SSN` int(10) NOT NULL,
+  `student_id` int(7) NOT NULL,
+  `phone` int(13) NOT NULL,
+  `religion` varchar(128) NOT NULL,
+  `sex` tinyint(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
@@ -141,12 +171,14 @@ CREATE TABLE `student` (
   `username` varchar(128) NOT NULL,
   `password` varchar(128) NOT NULL,
   `address` text NOT NULL,
+  `SSN` int(10) NOT NULL,
   `email` varchar(256) NOT NULL,
   `birthday` date NOT NULL,
   `sex` tinyint(1) NOT NULL,
   `phone` int(13) NOT NULL,
   `religion` varchar(128) DEFAULT NULL,
-  `create_at` timestamp NOT NULL DEFAULT current_timestamp()
+  `create_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `grade` varchar(128) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
@@ -168,7 +200,8 @@ CREATE TABLE `teacher` (
   `sex` tinyint(1) NOT NULL,
   `phone` int(13) NOT NULL,
   `religion` varchar(128) DEFAULT NULL,
-  `create_at` timestamp NOT NULL DEFAULT current_timestamp()
+  `create_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `SSN` int(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
