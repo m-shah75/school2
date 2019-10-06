@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 06, 2019 at 11:22 AM
+-- Generation Time: Oct 07, 2019 at 12:21 AM
 -- Server version: 10.4.6-MariaDB
 -- PHP Version: 7.3.9
 
@@ -58,7 +58,8 @@ CREATE TABLE `class` (
   `school_id` int(7) NOT NULL,
   `day` varchar(128) NOT NULL,
   `time` varchar(128) NOT NULL,
-  `create_at` timestamp NOT NULL DEFAULT current_timestamp()
+  `create_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `grade` varchar(128) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
