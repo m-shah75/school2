@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 04, 2019 at 02:53 PM
+-- Generation Time: Oct 06, 2019 at 11:22 AM
 -- Server version: 10.4.6-MariaDB
 -- PHP Version: 7.3.9
 
@@ -40,7 +40,8 @@ CREATE TABLE `admin` (
   `sex` tinyint(1) NOT NULL,
   `phone` int(13) NOT NULL,
   `address` text NOT NULL,
-  `birthday` date NOT NULL
+  `birthday` date NOT NULL,
+  `img_url` varchar(256) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
@@ -122,7 +123,8 @@ CREATE TABLE `operator` (
   `SSN` int(10) NOT NULL,
   `religion` varchar(128) NOT NULL,
   `sex` tinyint(1) NOT NULL,
-  `birthday` date NOT NULL
+  `birthday` date NOT NULL,
+  `img_url` varchar(256) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
@@ -142,7 +144,8 @@ CREATE TABLE `parent` (
   `student_id` int(7) NOT NULL,
   `phone` int(13) NOT NULL,
   `religion` varchar(128) NOT NULL,
-  `sex` tinyint(1) NOT NULL
+  `sex` tinyint(1) NOT NULL,
+  `img_url` varchar(256) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
@@ -178,7 +181,8 @@ CREATE TABLE `student` (
   `phone` int(13) NOT NULL,
   `religion` varchar(128) DEFAULT NULL,
   `create_at` timestamp NOT NULL DEFAULT current_timestamp(),
-  `grade` varchar(128) NOT NULL
+  `grade` varchar(128) NOT NULL,
+  `img_url` varchar(256) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
@@ -201,7 +205,8 @@ CREATE TABLE `teacher` (
   `phone` int(13) NOT NULL,
   `religion` varchar(128) DEFAULT NULL,
   `create_at` timestamp NOT NULL DEFAULT current_timestamp(),
-  `SSN` int(10) NOT NULL
+  `SSN` int(10) NOT NULL,
+  `img_url` varchar(256) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
