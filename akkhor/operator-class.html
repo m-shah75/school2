@@ -249,47 +249,126 @@
             <div class="sidebar-menu-content">
                 <ul class="nav nav-sidebar-menu sidebar-toggle-view">
                     <li class="nav-item sidebar-nav-item">
+                        <a href="#" class="nav-link"><i class="flaticon-classmates"></i><span>اپراتور</span></a>
                         <ul class="nav sub-group-menu">
                             <li class="nav-item">
-
+                                <a href="all-teacher.html" class="nav-link"><i class="fas fa-angle-right"></i>معلمان</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="operator-teacher.html" class="nav-link"><i class="fas fa-angle-right"></i>ایجاد پروفایل معلمن</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="operator-student.html" class="nav-link"><i
+                                        class="fas fa-angle-right"></i>ایجاد پروفایل دانش آموز</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="operator-class.html" class="nav-link"><i
+                                        class="fas fa-angle-right"></i>زمان بندی برنامه کلاسی</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="operator-exam.html" class="nav-link"><i
+                                        class="fas fa-angle-right"></i>زمان بندی برنامه امتحانات</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="operator-top-student.html" class="nav-link"><i
+                                        class="fas fa-angle-right"></i>درج دانش آموز برتر</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="operator-parents.html" class="nav-link"><i
+                                        class="fas fa-angle-right"></i>ایجاد پروفایل والدین</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="operator-notice-board.html" class="nav-link"><i
+                                        class="fas fa-angle-right"></i>اضافه کردن اعلانات</a>
                             </li>
                         </ul>
                     </li>
-                    <li class="nav-item sidebar-nav-item">
-                        <a href="#" class="nav-link"><i class="flaticon-couple"></i><span>والدین</span></a>
-                        <ul class="nav sub-group-menu">
-                            <li class="nav-item">
-                                <a href="my-child.html" class="nav-link"><i class="fas fa-angle-right"></i>فرزند من</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="class-routine-parent.html" class="nav-link"><i
-                                        class="fas fa-angle-right"></i>برنامه کلاس</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="exam-schedule-parent.html" class="nav-link"><i class="fas fa-angle-right"></i>برنامه امتحانات</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="exam-result-parent.html" class="nav-link"><i class="fas fa-angle-right"></i>نتایج امتحانات</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="student-attendence-parent.html" class="nav-link"><i class="fas fa-angle-right"></i>لیست حضور و غیاب</a>
-                            </li>
-
-                        </ul>
-                    </li>
-
-
-
                 </ul>
             </div>
         </div>
         <!-- Sidebar Area End Here -->
         <div class="dashboard-content-one">
             <!-- Breadcubs Area Start Here -->
-
+            <div class="breadcrumbs-area">
+                <h3>روال کلاس</h3>
+                <ul>
+                    <li>
+                        <a href="index.html">خانه</a>
+                    </li>
+                    <li>روال</li>
+                </ul>
+            </div>
             <!-- Breadcubs Area End Here -->
             <!-- Class Routine Area Start Here -->
             <div class="row">
+                <div class="col-4-xxxl col-12">
+                    <div class="card height-auto">
+                        <div class="card-body">
+                            <div class="heading-layout1">
+                                <div class="item-title">
+                                    <h3>افزودن روال کلاس</h3>
+                                </div>
+                                <div class="dropdown">
+                                    <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                       aria-expanded="false">...</a>
+
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <a class="dropdown-item" href="#"><i
+                                                class="fas fa-times text-orange-red"></i>بستن</a>
+                                        <a class="dropdown-item" href="#"><i
+                                                class="fas fa-cogs text-dark-pastel-green"></i>ویرایش</a>
+                                        <a class="dropdown-item" href="#"><i
+                                                class="fas fa-redo-alt text-orange-peel"></i>تازه کردن</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <form class="new-added-form">
+                                <div class="row">
+                                    <div class="col-12-xxxl col-lg-6 col-12 form-group">
+                                        <label>نام موضوع *</label>
+                                        <input type="text" placeholder="" class="form-control">
+                                    </div>
+                                    <div class="col-12-xxxl col-lg-6 col-12 form-group">
+                                        <label>نوع موضوع *</label>
+                                        <select class="select2">
+                                            <option value="">لطفا انتخاب کنید</option>
+                                            <option value="1">زبان</option>
+                                            <option value="2">انگلیسی</option>
+                                            <option value="3">ریاضیات</option>
+                                            <option value="3">اقتصاد</option>
+                                            <option value="3">شیمی</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12-xxxl col-lg-6 col-12 form-group">
+                                        <label>انتخاب کلاس *</label>
+                                        <select class="select2">
+                                            <option value="0">لطفا انتخاب کنید</option>
+                                            <option value="1">پخش</option>
+                                            <option value="2">مهد کودک</option>
+                                            <option value="3">یک</option>
+                                            <option value="3">دو</option>
+                                            <option value="3">سه</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12-xxxl col-lg-6 col-12 form-group">
+                                        <label>انتخاب کد</label>
+                                        <select class="select2">
+                                            <option value="0">لطفا انتخاب کنید</option>
+                                            <option value="1">00524</option>
+                                            <option value="2">00525</option>
+                                            <option value="3">00526</option>
+                                            <option value="3">00527</option>
+                                            <option value="3">00528</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12 form-group mg-t-8">
+                                        <button type="submit" class="btn-fill-lg btn-gradient-yellow btn-hover-bluedark">ذخیره</button>
+                                        <button type="reset" class="btn-fill-lg bg-blue-dark btn-hover-yellow">تنظیم مجدد</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-8-xxxl col-12">
                     <div class="card height-auto">
@@ -353,6 +432,186 @@
                                         <td>
                                             <div class="form-check">
                                                 <input type="checkbox" class="form-check-input">
+                                                <label class="form-check-label">یکشنبه</label>
+                                            </div>
+                                        </td>
+                                        <td>4</td>
+                                        <td>حسابداری</td>
+                                        <td>A</td>
+                                        <td>سنترال فایل</td>
+                                        <td>10.00 - 11.00 صبح</td>
+                                        <td>20/06/2019</td>
+                                        <td>
+                                            <div class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                                                   aria-expanded="false">
+                                                    <span class="flaticon-more-button-of-three-dots"></span>
+                                                </a>
+                                                <div class="dropdown-menu dropdown-menu-right">
+                                                    <a class="dropdown-item" href="#"><i
+                                                            class="fas fa-times text-orange-red"></i>بستن</a>
+                                                    <a class="dropdown-item" href="#"><i
+                                                            class="fas fa-cogs text-dark-pastel-green"></i>ویرایش</a>
+                                                    <a class="dropdown-item" href="#"><i
+                                                            class="fas fa-redo-alt text-orange-peel"></i>تازه کردن</a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input type="checkbox" class="form-check-input">
+                                                <label class="form-check-label">دوشنبه</label>
+                                            </div>
+                                        </td>
+                                        <td>4</td>
+                                        <td>انگلیسی</td>
+                                        <td>A</td>
+                                        <td>سنترال فایل</td>
+                                        <td>10.00 - 11.00 صبح</td>
+                                        <td>20/06/2019</td>
+                                        <td>
+                                            <div class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                                                   aria-expanded="false">
+                                                    <span class="flaticon-more-button-of-three-dots"></span>
+                                                </a>
+                                                <div class="dropdown-menu dropdown-menu-right">
+                                                    <a class="dropdown-item" href="#"><i
+                                                            class="fas fa-times text-orange-red"></i>بستن</a>
+                                                    <a class="dropdown-item" href="#"><i
+                                                            class="fas fa-cogs text-dark-pastel-green"></i>ویرایش</a>
+                                                    <a class="dropdown-item" href="#"><i
+                                                            class="fas fa-redo-alt text-orange-peel"></i>تازه کردن</a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input type="checkbox" class="form-check-input">
+                                                <label class="form-check-label">سه شنبه</label>
+                                            </div>
+                                        </td>
+                                        <td>4</td>
+                                        <td>اقتصاد</td>
+                                        <td>A</td>
+                                        <td>سنترال فایل</td>
+                                        <td>10.00 - 11.00 صبح</td>
+                                        <td>20/06/2019</td>
+                                        <td>
+                                            <div class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                                                   aria-expanded="false">
+                                                    <span class="flaticon-more-button-of-three-dots"></span>
+                                                </a>
+                                                <div class="dropdown-menu dropdown-menu-right">
+                                                    <a class="dropdown-item" href="#"><i
+                                                            class="fas fa-times text-orange-red"></i>بستن</a>
+                                                    <a class="dropdown-item" href="#"><i
+                                                            class="fas fa-cogs text-dark-pastel-green"></i>ویرایش</a>
+                                                    <a class="dropdown-item" href="#"><i
+                                                            class="fas fa-redo-alt text-orange-peel"></i>تازه کردن</a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input type="checkbox" class="form-check-input">
+                                                <label class="form-check-label">چهارشنبه</label>
+                                            </div>
+                                        </td>
+                                        <td>4</td>
+                                        <td>نقاشی</td>
+                                        <td>A</td>
+                                        <td>سنترال فایل</td>
+                                        <td>10.00 - 11.00 صبح</td>
+                                        <td>20/06/2019</td>
+                                        <td>
+                                            <div class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                                                   aria-expanded="false">
+                                                    <span class="flaticon-more-button-of-three-dots"></span>
+                                                </a>
+                                                <div class="dropdown-menu dropdown-menu-right">
+                                                    <a class="dropdown-item" href="#"><i
+                                                            class="fas fa-times text-orange-red"></i>بستن</a>
+                                                    <a class="dropdown-item" href="#"><i
+                                                            class="fas fa-cogs text-dark-pastel-green"></i>ویرایش</a>
+                                                    <a class="dropdown-item" href="#"><i
+                                                            class="fas fa-redo-alt text-orange-peel"></i>تازه کردن</a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input type="checkbox" class="form-check-input">
+                                                <label class="form-check-label">پنجشنبه</label>
+                                            </div>
+                                        </td>
+                                        <td>4</td>
+                                        <td>انگلیسی</td>
+                                        <td>A</td>
+                                        <td>سنترال فایل</td>
+                                        <td>10.00 - 11.00 صبح</td>
+                                        <td>20/06/2019</td>
+                                        <td>
+                                            <div class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                                                   aria-expanded="false">
+                                                    <span class="flaticon-more-button-of-three-dots"></span>
+                                                </a>
+                                                <div class="dropdown-menu dropdown-menu-right">
+                                                    <a class="dropdown-item" href="#"><i
+                                                            class="fas fa-times text-orange-red"></i>بستن</a>
+                                                    <a class="dropdown-item" href="#"><i
+                                                            class="fas fa-cogs text-dark-pastel-green"></i>ویرایش</a>
+                                                    <a class="dropdown-item" href="#"><i
+                                                            class="fas fa-redo-alt text-orange-peel"></i>تازه کردن</a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input type="checkbox" class="form-check-input">
+                                                <label class="form-check-label">جمعه</label>
+                                            </div>
+                                        </td>
+                                        <td>4</td>
+                                        <td>شیمی</td>
+                                        <td>A</td>
+                                        <td>سنترال فایل</td>
+                                        <td>10.00 - 11.00 صبح</td>
+                                        <td>20/06/2019</td>
+                                        <td>
+                                            <div class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                                                   aria-expanded="false">
+                                                    <span class="flaticon-more-button-of-three-dots"></span>
+                                                </a>
+                                                <div class="dropdown-menu dropdown-menu-right">
+                                                    <a class="dropdown-item" href="#"><i
+                                                            class="fas fa-times text-orange-red"></i>بستن</a>
+                                                    <a class="dropdown-item" href="#"><i
+                                                            class="fas fa-cogs text-dark-pastel-green"></i>ویرایش</a>
+                                                    <a class="dropdown-item" href="#"><i
+                                                            class="fas fa-redo-alt text-orange-peel"></i>تازه کردن</a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input type="checkbox" class="form-check-input">
                                                 <label class="form-check-label">شنبه</label>
                                             </div>
                                         </td>
@@ -387,7 +646,12 @@
                 </div>
             </div>
             <!-- Class Routine Area End Here -->
-
+            <footer class="footer-wrap-layout1">
+                <div class="copyright">© کپی رایت  2019. همه حقوق محفوظ است. ارائه شده توسط <a
+                        href="https://centralfile.ir/">سنترال فایل</a></div>
+            </footer>
+        </div>
+    </div>
     <!-- Page Area End Here -->
 </div>
 <!-- jquery-->
