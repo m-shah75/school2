@@ -217,30 +217,30 @@
                         <a href="#" class="nav-link"><i class="flaticon-classmates"></i><span>دانش آموز</span></a>
                         <ul class="nav sub-group-menu">
                             <li class="nav-item">
-                                <a href="all-teacher.html" class="nav-link"><i class="fas fa-angle-right"></i>معلمان</a>
+                                <a href="student-all-teacher.php" class="nav-link"><i class="fas fa-angle-right"></i>معلمان</a>
                             </li>
                             <li class="nav-item">
-                                <a href="exam-student.html" class="nav-link"><i
+                                <a href="student-exam.php" class="nav-link"><i
                                         class="fas fa-angle-right"></i>برنامه امتحانات</a>
                             </li>
                             <li class="nav-item">
-                                <a href="exam-result.html" class="nav-link"><i
+                                <a href="student-exam-result.php" class="nav-link"><i
                                         class="fas fa-angle-right"></i>نمرات</a>
                             </li>
                             <li class="nav-item">
-                                <a href="student-attendence.html" class="nav-link"><i
+                                <a href="student-attendence.php" class="nav-link"><i
                                         class="fas fa-angle-right"></i>لیست حضور و غیاب</a>
                             </li>
                             <li class="nav-item">
-                                <a href="class-routine.html" class="nav-link"><i
+                                <a href="student-schedule-table.php" class="nav-link"><i
                                         class="fas fa-angle-right"></i>برنامه کلاسی</a>
                             </li>
                             <li class="nav-item">
-                                <a href="student-news.html" class="nav-link"><i
+                                <a href="student-news.php" class="nav-link"><i
                                         class="fas fa-angle-right"></i>اخبار مدرسه</a>
                             </li>
                             <li class="nav-item">
-                                <a href="student-books.html" class="nav-link"><i
+                                <a href="student-books.php" class="nav-link"><i
                                         class="fas fa-angle-right"></i>جزوات</a>
                             </li>
                         </ul>

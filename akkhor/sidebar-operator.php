@@ -213,30 +213,30 @@
                         <a href="#" class="nav-link"><i class="flaticon-classmates"></i><span>اپراتور</span></a>
                         <ul class="nav sub-group-menu">
                             <li class="nav-item">
-                                <a href="operator-teacher.html" class="nav-link"><i class="fas fa-angle-right"></i>ایجاد پروفایل معلم</a>
+                                <a href="operator-teacher.php" class="nav-link"><i class="fas fa-angle-right"></i>ایجاد پروفایل معلم</a>
                             </li>
                             <li class="nav-item">
-                                <a href="operator-student.html" class="nav-link"><i
+                                <a href="operator-student.php" class="nav-link"><i
                                             class="fas fa-angle-right"></i>ایجاد پروفایل دانش آموز</a>
                             </li>
                             <li class="nav-item">
-                                <a href="operator-class.html" class="nav-link"><i
+                                <a href="operator-class.php" class="nav-link"><i
                                             class="fas fa-angle-right"></i>زمان بندی برنامه کلاسی</a>
                             </li>
                             <li class="nav-item">
-                                <a href="operator-exam.html" class="nav-link"><i
+                                <a href="operator-exam.php" class="nav-link"><i
                                             class="fas fa-angle-right"></i>زمان بندی برنامه امتحانات</a>
                             </li>
                             <li class="nav-item">
-                                <a href="operator-top-student.html" class="nav-link"><i
+                                <a href="operator-top-student.php" class="nav-link"><i
                                             class="fas fa-angle-right"></i>درج دانش آموز برتر</a>
                             </li>
                             <li class="nav-item">
-                                <a href="operator-parents.html" class="nav-link"><i
+                                <a href="operator-parents.php" class="nav-link"><i
                                             class="fas fa-angle-right"></i>ایجاد پروفایل والدین</a>
                             </li>
                             <li class="nav-item">
-                                <a href="operator-notice-board.html" class="nav-link"><i
+                                <a href="operator-notice-board.php" class="nav-link"><i
                                             class="fas fa-angle-right"></i>اضافه کردن اعلانات</a>
                             </li>
                         </ul>
