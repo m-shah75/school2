@@ -638,7 +638,5 @@
                 </div>
             </div>
             <!-- Footer Area Start Here -->
-            <footer class="footer-wrap-layout1">
-                <div class="copyright">© کپی رایت  2019. همه حقوق محفوظ است. ارائه شده توسط <a
-                        href="https://centralfile.ir/">سنترال فایل</a></div>
+
 <?php include_once 'footer.php'; ?>

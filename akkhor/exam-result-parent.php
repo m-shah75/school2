@@ -1,5 +1,5 @@
-<?php include_once 'header.php';?>
-
+<?php include_once 'header.php'; ?>
+<?php include_once 'sidebar-parents.php'; ?>
 <body>
 <!-- Preloader Start Here -->
 <div id="preloader"></div>
